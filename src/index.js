@@ -38,9 +38,10 @@ const fetchData = (url) => {
 
 fetchData(exampleAPI)
 
-
-
 // function to append images to div from array of objects with custom properties
+
+
+
 
 
 
