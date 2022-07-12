@@ -4,7 +4,8 @@
 // append a set of images with text displaying over the images to the DOM
 
 let divArray = []
-let exampleAPI = 'https://www.reddit.com/r/all/top.json?raw_json=5&limit=5&t=day'
+console.log(divArray)
+let exampleAPI = 'https://www.reddit.com/r/all/top.json?raw_json=1&limit=10&t=day'
 
 // function to allow use of API url by passing arguments
 const customUrl = (subreddit = 'all', sort = 'top', limit = '10', time = 'day') => {
